@@ -1,0 +1,7 @@
+encryptionsalt: FIXME-SET-BY-PULUMI
+config:
+  loki-stack:namespace: loki-stack
+  loki-stack:storageClass: truenas-hdd-mirror-iscsi
+  loki-stack:lokiStorageSize: 50Gi
+  loki-stack:lokiHost: loki.robbeverhelst.com
+  loki-stack:ingressClassName: cloudflare-tunnel

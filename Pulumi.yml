@@ -1,0 +1,7 @@
+name: loki-stack
+runtime:
+  name: nodejs
+  options:
+    typescript: true
+description: Loki Stack (Loki + Promtail) for centralized logging via Pulumi
+main: src/index.ts
